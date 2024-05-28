@@ -15,12 +15,6 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .executableTarget(
-            name: "xcode-selective-test",
-            dependencies: ["SelectiveTestingCore",
-                        .product(name: "ArgumentParser", package: "swift-argument-parser")],
-            swiftSettings: sharedSettings
-        ),
         .binaryTarget(
             name: "xcode-selective-test",
             url: "https://github.com/mikeger/XcodeSelectiveTesting/releases/download/0.9.4/xcode-selective-test.artifactbundle.zip",
