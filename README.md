@@ -9,5 +9,5 @@ Please use this version in case you don't want to recompile the tool and trust r
 Add to your Package.swift:
 
 ```swift
-    .package(url: "git@github.com:mikeger/XcodeSelectiveTesting-Binary", .upToNextMajor(from: "0.9.4"))
+    .package(url: "git@github.com:mikeger/XcodeSelectiveTesting-Binary", .upToNextMajor(from: "0.9.5"))
 ```
